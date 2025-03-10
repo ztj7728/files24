@@ -8,7 +8,7 @@ app = Flask(__name__)
 
 UPLOAD_FOLDER = 'uploads'
 EXPIRATION_TIME = 24 * 60 * 60  # 24小时
-CUSTOM_DOMAIN = 'https://files6.breadkim.com:8080'  # 设置自定义域名
+CUSTOM_DOMAIN = 'https://xxxxx'  # 设置自定义域名
 if not os.path.exists(UPLOAD_FOLDER):
     os.makedirs(UPLOAD_FOLDER)
 
